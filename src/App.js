@@ -1,7 +1,6 @@
 import React from "react";
 
 import muiTheme from "./theme";
-import Calender from "./components/Calendar/Calender";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import { ThemeProvider as SCThemeProvider } from "styled-components";
 import {
@@ -9,8 +8,7 @@ import {
   StylesProvider,
 } from "@material-ui/styles";
 
-import { Switch, BrowserRouter as Router, Route } from "react-router-dom";
-import config from "./config.json";
+import { Pages } from "./pages";
 
 export const App = () => {
   return (
@@ -18,11 +16,7 @@ export const App = () => {
       <MuiThemeProvider theme={muiTheme}>
         <SCThemeProvider theme={muiTheme}>
           <CssBaseline />
-          <Router>
-            <Switch>
-              <Route path="/" render={() => <Calender config={config} />} />
-            </Switch>
-          </Router>
+          <Pages />
         </SCThemeProvider>
       </MuiThemeProvider>
     </StylesProvider>
