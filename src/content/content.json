@@ -1,0 +1,172 @@
+{
+	"leftSideColumn": [
+		{
+			"id": "Meeting duration",
+			"text": "10 Minute Meeting"
+		},
+		{
+			"id": "Metting setting up",
+			"text": "Your meeting seting up "
+		}
+	],
+	"rightSideColumn": [
+		{
+			"id": "Appointment time",
+			"text": "Choose your appointment time"
+		},
+		{
+			"id": "Appointment date",
+			"text": "Choose your appointment date"
+		},
+		{
+			"id": "Fill up the fields ",
+			"text": "Please tell us your information."
+		},
+		{
+			"id": "Text Field for auto complete label",
+			"text": "TimeZone"
+		}
+	],
+	"formValidation": [
+		{
+			"id": "Location validation",
+			"text": "Please provide your company location.",
+			"for": "location"
+		},
+		{
+			"id": "Email validation",
+			"text": "Please provide correct email address.",
+			"for": "email"
+		},
+		{
+			"id": "First name validation",
+			"text": "First name is too short.(Min-char : 4).",
+			"for": "firstName"
+		},
+		{
+			"id": "Last name validation",
+			"text": "Last name is too short.(Min-char : 4).",
+			"for": "lastName"
+		},
+		{
+			"id": "Phone number validation",
+			"text": "Please provide a correct phone number.",
+			"for": "phoneNumber"
+		}
+	],
+	"formFieldsContent": [
+		{
+			"id": "Company location",
+			"label": "Your company location",
+			"name": "location",
+			"type": "text",
+			"autoFocusFlag": true
+		},
+		{
+			"id": "Phone number",
+			"label": "Your phone number",
+			"type": "text",
+			"name": "phoneNumber"
+		},
+		{
+			"id": "User email",
+			"label": "Your email",
+			"type": "email",
+			"name": "email"
+		},
+		{
+			"id": "User first name",
+			"label": "First name",
+			"type": "text",
+			"name": "firstName"
+		},
+		{
+			"id": "User last name",
+			"label": "Last name",
+			"type": "text",
+			"name": "lastName"
+		}
+	],
+	"formComponentContent": [
+		{
+			"id": "Button text",
+			"text": "Set Appointment"
+		},
+		{
+			"id": "Opeqe set appointment url for POST",
+			"url": "https://api.opeqe.com/appointment/createNewAppointment",
+			"origin" : "Opeqe"	
+		},
+		{
+			"id": "Date format for changing to UTC",
+			"format": "YYYY-MM-DDTHH:mm:ss.SSS[Z]"
+		}
+	],
+	"autoCompleteContent": [
+		{
+			"id": "No option text",
+			"text": "Nothing found on"
+		},
+		{
+			"id": "Place holder for text field",
+			"text": "Company location"
+		}
+	],
+	"timeZone": [
+		{
+			"id": "Opeqe URL",
+			"url": "https://api.opeqe.com/appointment/getAllAvailableTimes"
+		}
+	],
+	"phoneNumberFormatter": [
+		{
+			"id": "Contries flag URL",
+			"url": "https://cdn.jsdelivr.net/npm/react-flagkit@1.0.2/img/SVG/${country}.svg"
+		}
+	],
+	"addToCalendarContent": [
+		{
+			"id": "Add to Google calendar",
+			"name": "makeGoogleCalendarUrl",
+			"target": "_blank",
+			"text": "Google"
+		},
+		{
+			"id": "Add to Outlook calendar",
+			"name": "makeOutlookCalendarUrl",
+			"target": "_blank",
+			"text": "OutLook"
+		},
+		{
+			"id": "Add to Yahoo calendar",
+			"name": "makeYahooCalendarUrl",
+			"target": "_blank",
+			"text": "Yahoo"
+		},
+		{
+			"id": "Add to ISC calendar",
+			"name": "makeICSCalendarUrl",
+			"target": "none",
+			"text": "ISC-Calendar"
+		}
+	],
+	"confirmPage": [
+		{
+			"id": "Comfirm text",
+			"text": "Confirmed"
+		},
+		{
+			"id": "Confirm successfully text",
+			"text": "Your scheduled confirmed successfully. "
+		},
+		{
+			"id" : "Add to calendar event detail text",
+			"text" : "Set meeting to you at"
+		},
+		{
+			"id" : "Add to calendar event name",
+			"text" : "10 Minute Meeting"
+		}
+	]
+	
+}

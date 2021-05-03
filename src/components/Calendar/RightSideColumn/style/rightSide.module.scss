@@ -1,0 +1,24 @@
+.Text {
+	color: #4d5055;
+	font-size: 20px;
+	text-align: center;
+}
+
+.RightSideBodyContent {
+	width: 19rem;
+	height: 22rem;
+}
+
+.RightSideDatePicker {
+	display: flex;
+	justify-content: center;
+}
+
+.RightSideTimeZoneContainer {
+	display: flex;
+	align-items: flex-end;
+}
+.RightSideTimeZonIcon {
+	margin-right: 0.7rem;
+	color: #4d5055;
+}

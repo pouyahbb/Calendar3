@@ -1,0 +1,35 @@
+.ConfirmTimeAndDate {
+	display: flex;
+	align-items: center;
+	margin-bottom: 12px;
+	color: #06c29c;
+	margin: 1rem 0;
+	span {
+		margin-left: 0.5rem;
+		font-size: 17px;
+		font-weight: bold;
+	}
+}
+.ConfirmTenMinuteText {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.ConfirmCirculeIcon {
+	background-color: rgb(223, 193, 45);
+	width: 1rem;
+	height: 1rem;
+	margin-right: 1rem;
+	border-radius: 50%;
+}
+
+.ConfirmTimeZone {
+	color: rgba(77, 80, 85, 0.6);
+	display: flex;
+	align-items: center;
+	font-weight: bolder;
+	span {
+		margin-left: 0.5rem;
+	}
+}

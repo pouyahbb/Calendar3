@@ -1,0 +1,17 @@
+*,
+*::after,
+*::before {
+	padding: 0;
+	margin: 0;
+	box-sizing: inherit;
+}
+
+body {
+	background-color: #fbfcfd;
+	font-family: 'Libre Baskerville', serif;
+	box-sizing: border-box;
+}
+
+::selection {
+	color: #026764;
+}

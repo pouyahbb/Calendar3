@@ -1,0 +1,37 @@
+.LeftSideContent {
+	margin-top: 5rem;
+}
+.CalendarIconAndText {
+	display: flex;
+	margin-left: 1rem;
+	color: rgba(77, 80, 85, 0.6);
+}
+.CalendarIcon {
+	margin-left: 1rem;
+}
+.AccessAlarmIconAndText {
+	display: flex;
+	margin-left: 1rem;
+	color: rgba(77, 80, 85, 0.6);
+}
+
+.AlarmIcon {
+	margin-left: 1rem;
+}
+.TimeZone {
+	display: flex;
+	margin-left: 2rem;
+	color: rgba(77, 80, 85, 0.6);
+}
+
+.Text {
+	color: #4d5055;
+	margin: 0 0 2rem 1rem;
+	font-weight: bolder;
+	margin-left: 1rem;
+	color: grey;
+
+	strong {
+		color: #06c29c;
+	}
+}

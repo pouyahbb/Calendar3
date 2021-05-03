@@ -1,0 +1,49 @@
+.Confirm {
+	margin-top: 3rem;
+	position: relative;
+}
+
+.ConfirmHeader {
+	width: 100%;
+	text-align: center;
+	padding-bottom: 2rem;
+	p {
+		color: #4d5055;
+		font-weight: bolder;
+		font-size: 20px;
+		margin-bottom: 10px;
+		font-weight: bolder;
+	}
+	span {
+		color: #333;
+		letter-spacing: 1px;
+		font-weight: bolder;
+	}
+}
+
+.ConfirmBody {
+	position: absolute;
+	top: 50%;
+	h3 {
+		font-weight: 700;
+		font-size: 20px;
+		color: rgb(77, 80, 85);
+	}
+}
+
+.AddToCalendar {
+	width: 100%;
+	padding-bottom: 1rem;
+	margin: 2rem auto;
+	button {
+		background-color: #f0f0f0;
+		border-radius: 20px;
+		transition: all 0.2s cubic-bezier(0.46, 0.52, 0.66, 0.68);
+		&:hover {
+			background-color: #e0e0e0;
+		}
+		span {
+			color: rgb(0, 162, 255);
+		}
+	}
+}
