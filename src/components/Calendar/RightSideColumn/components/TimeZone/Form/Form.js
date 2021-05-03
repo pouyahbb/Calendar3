@@ -6,7 +6,6 @@ import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
 import CircularProgress from "@material-ui/core/CircularProgress";
 // Other
-import { FormValidation } from "./components/formValidation/formValidation";
 import axios from "axios";
 import Fileds from "./components/Fields/Fields";
 import classes from "./style/form.module.scss";
@@ -36,11 +35,7 @@ export const Form = ({ history, location, timeZone }) => {
     firstName: "",
     lastName: "",
   });
-  // Error validation
-  const [error, setError] = useState({
-    isValid: true,
-    message: "",
-  });
+
   // Change time and date to UTC format
   let formatTime = moment(time.split("-").join(" "), ["h:mm A"]).format(
     "HH:mm:ss"
@@ -80,19 +75,6 @@ export const Form = ({ history, location, timeZone }) => {
   };
 
   const handleClick = () => {
-    FormValidation(value, (data) => {
-      if (data.isValid === false) {
-        setError({
-          isValid: data.isValid,
-          message: data.message,
-        });
-      } else {
-        setError({
-          isValid: data.isValid,
-          message: data.message,
-        });
-      }
-    });
     setLoading(true);
     axios
       .post(content.formComponentContent[1].url, {

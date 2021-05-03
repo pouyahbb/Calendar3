@@ -7,10 +7,7 @@ import Grid from "@material-ui/core/Grid";
 import LocationOnIcon from "@material-ui/icons/LocationOn";
 import LocationOnOutlinedIcon from "@material-ui/icons/LocationOnOutlined";
 // Other
-import PlacesAutocomplete, {
-  geocodeByAddress,
-  getLatLng,
-} from "react-places-autocomplete";
+import PlacesAutocomplete from "react-places-autocomplete";
 import classes from "./autoComplete.module.scss";
 import { withRouter } from "react-router-dom";
 import { configContext } from "./../../../../../../configContext";

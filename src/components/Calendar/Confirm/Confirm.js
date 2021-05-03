@@ -6,7 +6,7 @@ import AddToCalenedar from "./components/AddToCalendar/AddToCalendar";
 import BodyContent from "./components/BodyContent/BodyContent";
 import classes from "./confirm.module.scss";
 import { Grid } from "@material-ui/core";
-import { configContext } from "../../configContext";
+import { configContext } from "../configContext";
 
 export const Confirm = ({ date, time, timeZone }) => {
   const content = useContext(configContext);

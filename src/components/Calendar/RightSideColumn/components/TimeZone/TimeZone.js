@@ -11,7 +11,6 @@ import classes from "./style/timeZone.module.scss";
 import axios from "axios";
 import { configContext } from "../../../configContext";
 // Material
-import Grid from "@material-ui/core/Grid";
 import CircularProgress from "@material-ui/core/CircularProgress";
 // Scrollbar
 import { mapValues } from "lodash";
@@ -44,7 +43,7 @@ export const TimeZone = ({ history, routeName, timeZone, date }) => {
           setLoading(false);
         });
     }
-  }, [timeZone, date._d]);
+  }, [timeZone, date._d, content.timeZone]);
 
   const handleConfirmBtn = (selectedTime) => {
     const time = selectedTime.split(" ").join("-");
