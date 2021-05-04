@@ -1,0 +1,47 @@
+{
+	"navBar": [
+		{
+			"id": "NavBar logo",
+			"logo": "DELIVERY"
+		}
+	],
+	"googleAutoPlace": [
+		{
+			"id": "Google place API",
+			"api": "AIzaSyBGeonjB2g_U8Ss1U8C6iRu7iujdix4BPA&libraries=places&callback=initMap"
+		}
+	],
+	"homePageContent": [
+		{
+			"id": "TextField label for destination",
+			"text": "Destination"
+		},
+		{
+			"id": "TextField text for destination",
+			"text": "Where"
+		},
+		{
+			"id": "TextFiled label for source",
+			"text": "Your address"
+		}
+	],
+	"signinPageContent": [
+		{
+			"id": "Email text field",
+			"placeholder": "Your Email",
+			"label": "Email",
+			"helperText": "Your email are be safe and not published with anyone.",
+			"name": "email"
+		},
+		{
+			"id": "Password text field",
+			"placeholder": "Password",
+			"label": "Password",
+			"name": "password"
+		},
+		{
+			"id" : "Sign in  header text ",
+			"text" :"Sign in to your account"
+		}
+	]
+}
